@@ -19,6 +19,7 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+
 def arithmetic(a, difference, n):
     '''Calculates the sum of a arithmetic serie of n elements.
        An arithmetic sequence is of the form: a, a+d, a+2d, a+3d,...
@@ -32,5 +33,6 @@ def geometric(a, ratio, n):
     '''Calculates the sum of a geometric serie of n elements.
        A geometric sequence is of the form: a, a*r, a*r*r, a*r*r*r,...
        n is the number of elements in the sequence.'''
+
     #Use the sum formula:
     return a*(1-ratio**n)/(1-ratio)
