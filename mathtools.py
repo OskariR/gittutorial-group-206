@@ -19,5 +19,3 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-def error (errorstring):
-    print errorstring
